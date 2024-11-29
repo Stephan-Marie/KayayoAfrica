@@ -1,2 +1,1 @@
-# KayayoAfrica
- Marker-based AR billboard campaign for KayayoAfrica, a food/grocery delivery app.
+# camera_kit_demo
