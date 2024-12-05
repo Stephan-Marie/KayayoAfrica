@@ -21,12 +21,14 @@ const mediaStream = await navigator.mediaDevices.getUserMedia({
   },
 });
 
+
 const source = createMediaStreamSource(mediaStream, { 
   cameraType: 'user',
   transform: Transform2D.MirrorX,
 })
 
 await session.setSource(source);
+
 
 //source.setRenderSize(window.innerWidth, window.innerHeight)
 
